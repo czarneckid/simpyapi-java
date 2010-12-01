@@ -1,0 +1,23 @@
+Version 1.3 - Release Date: May 16, 2007 - Codename: God of War
+---------------------------------------------------------------------
+- Adding missing API calls, deleteNote
+
+Version 1.2 - Release Date: August 9, 2006 - Codename: Destroy All Humans!
+--------------------------------------------------------------------------
+- Adding new API calls, removeTag, renameTag, mergeTags, splitTag, getWatchlists, getWatchlist
+
+Version 1.1 - Release Date: Unreleased - Codename: Shadows of the Colossus
+-------------------------------------------------------------------
+- Added getAllLinks() method for retrieving all links that match specified
+  criteria (makes use of 'limit' request parameter)
+- Added getAllNotes() method for retrieving all Notes that optionally match
+  specified criteria (makes use of 'limit' request parameter)
+- Updated Jakarta Commons HttpClient library to 3.0 final
+- Added argument checks for various parameters to make sure they are not null. If null,
+  an IllegalArgumentException is thrown.
+
+Version 1.0 - Codename: Katamari Damacy
+---------------------------------------
+Initial release
+
+
